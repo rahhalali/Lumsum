@@ -1,0 +1,18 @@
+.wrapper .left{
+    width: 35%;
+    background: linear-gradient(to right, #a1cdce,black);
+    padding: 30px 25px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+
+.wrapper .left img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.wrapper .left h4{
+    margin-bottom: 10px;
+}

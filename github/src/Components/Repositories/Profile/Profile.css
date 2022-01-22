@@ -1,0 +1,64 @@
+.profile {
+    float: left;
+    width: 70%;
+    height: 320px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile .image {
+    position: relative;
+    width: 140px;
+    height: 180px;
+    margin: 38px auto 0 auto;
+}
+.profile .image .circle-1, .profile .image .circle-2 {
+    position: absolute;
+    box-sizing: border-box;
+    width: 140px;
+    height: 140px;
+    top: -3px;
+    left: -3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #786450 #786450 #786450 transparent;
+    border-radius: 50%;
+    transition: all 1.5s ease-in-out;
+}
+.profile .image .circle-2 {
+    width: 150px;
+    height: 150px;
+    top: -6px;
+    left: -6px;
+    border-color: #786450 transparent #786450 #786450;
+}
+.profile .image img {
+    display: block;
+    border-radius: 50%;
+    background: #f5e8df;
+
+}
+.profile .image:hover {
+    cursor: pointer;
+}
+.profile .image:hover .circle-1, .profile .image:hover .circle-2 {
+    transform: rotate(360deg);
+}
+.profile .image:hover .circle-2 {
+    transform: rotate(-360deg);
+}
+.profile .name {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.profile .job {
+    font-size: 13px;
+    line-height: 15px;
+}
+.profile .actions {
+    margin-top: 33px;
+}
